@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kwitter Room</title>
+    <link rel="icon" href="antic2.png">
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<div class="container" id="lfddf">
+    <button class="btn" id="lllt1" onclick="topFunction()"></button>
+    <button id="logout2" onclick="back();" class=" btn btn-info col-lg-3">&nbsp;back</button>
+<button id="logout1" onclick="logout();" class="glyphicon glyphicon-log-out btn btn-danger col-lg-3">&nbsp;Logout</button>
+	<center>
+        <br>
+        <img src="logo2.png" id="logo2">
+        <br><br>
+		<div id="output" style="text-align: left;margin-bottom: 70px;"> </div>
+
+	</center>
+</div>
+
+
+<center>
+	<div class="input_div_message_page" id="lfddf9">
+		<label>Send:</label>
+		<input type="text" id="msg" class="form-control" placeholder="Message">
+		<button onclick="send()" class="btn btn-success">Send</button>
+	</div>
+</center>
+
+<script src="kwitter_page.js"></script>
+</body>
+</html>
